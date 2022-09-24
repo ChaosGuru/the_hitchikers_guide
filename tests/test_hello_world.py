@@ -1,4 +1,4 @@
-from context import hello_world
+from context import hello
 
 
 def test_hello_world(capfd):
