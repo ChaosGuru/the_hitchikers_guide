@@ -1,7 +1,6 @@
-from context import hello
-
+from hitchikers.scripts import hello
 
 def test_hello_world(capfd):
-    hello_world.print_hello_world()
+    hello.print_hello_world()
     out, err = capfd.readouterr()
     assert out == "Hello, World!\n"
